@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Todo_list_sqflite",
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }
